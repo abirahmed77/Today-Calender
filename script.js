@@ -51,7 +51,7 @@ function showdate() {
   mn = mn == 10 ? "November" : mn;
   mn = mn == 11 ? "December" : mn;
 
-  var date = `${d}:${m}:${y} "<br>":${dy}:${mn}:${y}`;
+  var date = d + "/" + m + "/" + y + "/" + "<br>" + dy + "," + mn + " " + y;
   document.getElementById(mydatedisplay).innerHTML = date;
 }
 
